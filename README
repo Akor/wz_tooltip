@@ -1,0 +1,9 @@
+Modifications where performed to:
+    -limit the scope of private functions & vars (disabled plugin API for now)
+    -remove some (but not yet all) eval uses
+    -take DOMNode objects in addition to id strings as tooltips
+    -replace tooltips in html like this (mind the class names):
+        <span class='customTooltip'>
+            <span class='tooltip'>This is the tooltip</span>
+            This is the Caption
+        </span>
