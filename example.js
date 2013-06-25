@@ -1,0 +1,1 @@
+CustomTooltip.replace(document.body);
